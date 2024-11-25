@@ -35,6 +35,7 @@ export default defineUserConfig({
   plugins: [
     // live2d看板娘
     oml2dPlugin({
+      mobileDisplay: true,
       models: [
         {
           path: 'https://model.oml2d.com/HK416-2-destroy/model.json',
