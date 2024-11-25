@@ -5,6 +5,7 @@ import 'vuepress-theme-hope/presets/bounce-icon.scss';
 
 const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 const MyIcon = defineAsyncComponent(() => import('./components/MyIcon.vue'));
+const BlogBeautify = defineAsyncComponent(() => import('./components/BlogBeautify.vue'));
 
 export default defineClientConfig({
     enhance({ app, router, siteData }) {
@@ -15,5 +16,6 @@ export default defineClientConfig({
     },
     rootComponents: [
         NavMusic,
+        BlogBeautify,
     ],
 });

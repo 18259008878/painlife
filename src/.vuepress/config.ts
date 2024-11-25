@@ -40,6 +40,7 @@ export default defineUserConfig({
         {
           path: 'https://model.oml2d.com/HK416-2-destroy/model.json',
           scale: 0.12,
+          mobileScale: 0.08,
           position: [-10, 50],
           stageStyle: {
             width: 350
