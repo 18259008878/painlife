@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
+import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -22,6 +22,21 @@ export default defineUserConfig({
       "src": "/painlife/js/mouseClickEffect.js",
       "defer": "true"
     }]
+  ],
+  plugins: [
+    // live2d看板娘
+    oml2dPlugin({
+      models: [
+        {
+          path: 'https://model.oml2d.com/HK416-2-destroy/model.json',
+          scale: 0.12,
+          position: [-10, 50],
+          stageStyle: {
+            width: 350
+          }
+        }
+      ]
+    })
   ],
   theme,
 });

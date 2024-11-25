@@ -18,6 +18,7 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
-    "painlife": "file:"
+    "painlife": "file:",
+    "vuepress-plugin-oh-my-live2d": "^0.19.3"
   }
 }
