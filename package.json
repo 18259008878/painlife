@@ -18,6 +18,8 @@
     "vuepress-theme-hope": "2.0.0-rc.59"
   },
   "dependencies": {
+    "aplayer": "^1.10.1",
+    "axios": "^1.7.7",
     "painlife": "file:",
     "vuepress-plugin-oh-my-live2d": "^0.19.3"
   }

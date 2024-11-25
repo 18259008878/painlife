@@ -1,8 +1,17 @@
 import { defineUserConfig } from "vuepress";
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
 import theme from "./theme.js";
+import { getDirname, path } from 'vuepress/utils';
+
+const __dirname = getDirname(import.meta.url);
+const SrcPath = path.resolve(__dirname, '../');
 
 export default defineUserConfig({
+  alias: {
+    '@components': path.resolve(__dirname, 'components'),
+    '@src': SrcPath,
+  },
+
   base: "/painlife/",
   lang: "zh-CN",
   title: "\"极乐\"人生",
