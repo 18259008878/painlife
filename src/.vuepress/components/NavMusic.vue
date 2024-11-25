@@ -4,7 +4,6 @@ import 'aplayer/dist/APlayer.min.css';
 import MyIcon from './MyIcon.vue';
 import { useRouter } from 'vue-router';
 import { ref, onMounted, nextTick } from 'vue';
-import axios from 'axios';
 
 const musicData = [
     {
@@ -108,9 +107,9 @@ function AddBtnSpin() {
     if (Win.GlobalAPlayer && Win.GlobalAPlayer.mode ) {
         console.log("enter")
         if (Win.GlobalAPlayer.paused) {
-            document.getElementById('MyMusic_icon')?.setAttribute('spin', false);
+            document.getElementById('MyMusic_icon')?.setAttribute('spin', 'false');
         } else {
-            document.getElementById('MyMusic_icon')?.setAttribute('spin', true);
+            document.getElementById('MyMusic_icon')?.setAttribute('spin', 'true');
         }
     }
 }
