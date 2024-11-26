@@ -42,7 +42,7 @@ export default hopeTheme({
   blog: {
     avatar: "/img/avatar.png",
     description: "一只听话的小牛马~",
-    intro: "/intro.html",
+    intro: "/about/关于我.md",
     medias: {
       BiliBili: "https://space.bilibili.com/355308667?spm_id_from=333.1007.0.0",
       Email: "mailto:2942173241@qq.com",
