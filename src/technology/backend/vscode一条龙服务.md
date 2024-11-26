@@ -45,7 +45,7 @@ vscode 插件搜索Spring即可。
 
 选择Java为开发语言
 
-![选择Java为开发语言](./vscodeMDimgdir/JavaLan.png)
+![选择Java为开发语言](./vscodeMDimgdir/javaLan.png)
 
 输入域名
 
