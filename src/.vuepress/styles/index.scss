@@ -1,1 +1,38 @@
 // place your custom styles here
+// Origin code from https://github.com/mo7cc/blog-source.git
+.none {
+    width: 0;
+    height: 0;
+    user-select: none;
+    pointer-events: none;
+    overflow: hidden;
+    display: none;
+}
+
+:root {
+    --content-width: 830px;
+}
+
+@media screen and (min-width: 1770px) {
+    :root {
+        --content-width: calc(100vw - 15rem - 6rem - var(--sidebar-width) - 20rem);
+    }
+}
+
+.ImgGroup {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: baseline;
+    width: 100%;
+
+    figure {
+        margin: 2px;
+    }
+}
+
+.vp-blog-hero-title,
+.vp-site-name,
+.vp-blog-hero-description {
+    font-family: "华文行楷";
+}

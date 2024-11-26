@@ -3,7 +3,7 @@
 
 <template>
     <ClientOnly>
-        <div class="none">主题美化</div>
+        <div class="none"></div>
     </ClientOnly>
 </template>
 

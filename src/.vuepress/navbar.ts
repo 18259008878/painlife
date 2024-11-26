@@ -4,7 +4,7 @@ export default navbar([
   "/",
   {
     text: "杂谈",
-    icon: "pen-to-square",
+    icon: "home",
     prefix: "/posts/",
     children: [
       {
@@ -13,5 +13,11 @@ export default navbar([
         link: "test"
       }
     ]
+  },
+  {
+    text: '关于',
+    icon: 'info',
+    prefix: 'about/',
+    link: '/about/',
   },
 ]);

@@ -6,6 +6,9 @@ import 'vuepress-theme-hope/presets/bounce-icon.scss';
 const NavMusic = defineAsyncComponent(() => import('./components/NavMusic.vue'));
 const MyIcon = defineAsyncComponent(() => import('./components/MyIcon.vue'));
 const BlogBeautify = defineAsyncComponent(() => import('./components/BlogBeautify.vue'));
+const TopBarBeautify = defineAsyncComponent(() => import('./components/TopBarBeautify.vue'));
+const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
+const HeroHitokoto = defineAsyncComponent(() => import('./components/HeroHitokoto.vue'));
 
 export default defineClientConfig({
     enhance({ app, router, siteData }) {
@@ -17,5 +20,8 @@ export default defineClientConfig({
     rootComponents: [
         NavMusic,
         BlogBeautify,
+        TopBarBeautify,
+        HeroBG,
+        HeroHitokoto,
     ],
 });

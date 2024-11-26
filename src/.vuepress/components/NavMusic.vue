@@ -105,7 +105,6 @@ const NewPlayer = () => {
 function AddBtnSpin() {
     const Win: any = window;
     if (Win.GlobalAPlayer && Win.GlobalAPlayer.mode ) {
-        console.log("enter")
         if (Win.GlobalAPlayer.paused) {
             document.getElementById('MyMusic_icon')?.setAttribute('spin', 'false');
         } else {
@@ -124,7 +123,6 @@ function AddBtnSpin() {
 // }
 
 const LoadMusicList = (callback) => {
-    console.log(musicData);
     GlobalMusicList = musicData;
     callback && callback();
 };
