@@ -19,7 +19,7 @@ public class Main {
 
 ## 图片部分
 
-![图片](/assets/images/cover2.jpg)
+![图片](img/114142629_p0.png)
 
 ## 表格部分
 

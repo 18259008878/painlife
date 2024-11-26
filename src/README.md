@@ -3,7 +3,8 @@ home: true
 layout: BlogHome
 icon: home
 title: 首页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /logo.svg
+bgImage: /img/alone_tea.jpg
 heroText: “极乐”人生
 heroFullScreen: true
 tagline: 人生苦短，及时“行乐”

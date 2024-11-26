@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://18259008878.github.io/painlife/",
 
   author: {
     name: "Carmen",
@@ -13,11 +13,10 @@ export default hopeTheme({
 
   iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.css",
 
-  // iconPrefix: "fas fa-",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "/logo.svg",
 
-  favicon: "https://theme-hope-assets.vuejs.press/logo.svg",
+  favicon: "/painlife/favicon.ico",
 
   repo: "https://github.com/18259008878/painlife.git",
 
@@ -41,6 +40,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
+    avatar: "/img/avatar.png",
     description: "一只听话的小牛马~",
     intro: "/intro.html",
     medias: {
