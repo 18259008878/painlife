@@ -8,14 +8,14 @@ export default navbar([
     prefix: "/technology/",
     children: [
       {
-        text: "vue",
-        prefix: "/technology/vue/",
-        link: "/technology/vue/",
+        text: "前端",
+        prefix: "/technology/frontend/",
+        link: "/technology/frontend/",
       },
       {
-        text: "spring",
-        prefix: "/technology/spring/",
-        link: "/technology/spring/",
+        text: "后端",
+        prefix: "/technology/backend/",
+        link: "/technology/backend/",
       }
     ]
   },

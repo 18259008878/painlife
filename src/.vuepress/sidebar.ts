@@ -32,22 +32,22 @@ export default sidebar({
       children: 'structure',
     },
   ],
-  '/technology/spring/': [
+  '/technology/backend/': [
     back_technology,
     {
-      text: 'spring',
-      icon: "fa-brands fa-java",
-      link: '/technology/spring/',
+      text: '后端',
+      icon: "fa-solid fa-terminal",
+      link: '/technology/backend/',
       children: 'structure',
     },
   ],
 
-  '/technology/vue/': [
+  '/technology/frontend/': [
     back_technology,
     {
-      text: 'vue',
+      text: '前端',
       icon: "fa-brands fa-vuejs",
-      link: '/technology/vue/',
+      link: '/technology/frontend/',
       children: 'structure',
     },
   ],
