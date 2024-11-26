@@ -8,7 +8,7 @@ const back_posts = {
 };
 
 const back_technology = {
-  text: '返回开发者',
+  text: '返回技术',
   icon: "fa-solid fa-code",
   link: '/technology/',
 };
