@@ -1,9 +1,8 @@
 ---
-cover: /assets/images/cover2.jpg
-icon: pen-to-square
+icon: fa-solid fa-chart-bar
 date: 2024-11-25
 category:
-  - Java
+  - 测试
 ---
 
 # Java测试

@@ -13,6 +13,8 @@ export default hopeTheme({
 
   iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.css",
 
+  // iconPrefix: "fas fa-",
+
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   favicon: "https://theme-hope-assets.vuejs.press/logo.svg",

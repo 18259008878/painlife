@@ -1,15 +1,17 @@
 ---
-icon: info
+icon: fa-solid fa-circle-info
 pageInfo: ['Author', 'PageView']
 index: false
+tag:
+    - 目录
 permalink: /about/
 ---
 
 # 关于
 
-::: info 关于本站
+::: info
 
-About Some Things
+关于我和关于本站
 
 :::
 

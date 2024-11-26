@@ -3,79 +3,76 @@ import { sidebar } from 'vuepress-theme-hope';
 
 const back_posts = {
   text: '返回总目录',
-  icon: 'sort',
+  icon: "fa-solid fa-bars",
   link: '/posts/',
 };
 
-const back_developer = {
+const back_technology = {
   text: '返回开发者',
-  icon: 'developer',
-  link: '/developer/',
+  icon: "fa-solid fa-code",
+  link: '/technology/',
 };
 
 export default sidebar({
-  // 关于
   '/about/': [
     back_posts,
     {
       text: '关于',
-      icon: 'info',
+      icon: "fa-solid fa-lightbulb",
       link: '/about/',
       children: 'structure',
     },
   ],
-  // 开发者
-  '/developer/': [
+  '/technology/': [
     back_posts,
     {
-      text: '开发者',
-      icon: 'developer',
-      link: '/developer/',
+      text: '技术',
+      icon: "fa-solid fa-code",
+      link: '/technology/',
       children: 'structure',
     },
   ],
-  '/developer/spring/': [
-    back_developer,
+  '/technology/spring/': [
+    back_technology,
     {
       text: 'spring',
-      icon: 'Spring',
-      link: '/developer/spring/',
+      icon: "fa-brands fa-java",
+      link: '/technology/spring/',
       children: 'structure',
     },
   ],
 
-  '/developer/vue/': [
-    back_developer,
+  '/technology/vue/': [
+    back_technology,
     {
-      text: 'vue3',
-      icon: 'Vue',
-      link: '/developer/vue/',
+      text: 'vue',
+      icon: "fa-brands fa-vuejs",
+      link: '/technology/vue/',
       children: 'structure',
     },
   ],
 
-  // 整体路由划分
   '/': [
     '',
     {
-      text: '博文',
-      icon: 'note',
+      text: '杂谈',
+      icon: "fa-solid fa-bars",
       prefix: 'posts/',
       link: '/posts/',
       children: 'structure',
     },
 
     {
-      text: '开发者',
-      icon: 'developer',
-      prefix: 'developer/',
-      link: '/developer/',
+      text: '技术',
+      icon: "fa-solid fa-code",
+      prefix: 'technology/',
+      link: '/technology/',
       children: 'structure',
     },
 
     {
       text: '关于',
-      icon: 'info',
+      icon: "fa-solid fa-lightbulb",
       prefix: 'about/',
       link: '/about/',
       children: 'structure',

@@ -151,7 +151,7 @@ hr {
         top: -0.4rem;
         left: 1%;
         font-family: 'FontAwesome';
-        content: '\f5e4';
+        content: '\f0fb';
         z-index: 2;
         font-size: 1.6rem;
         transition: 1s;
