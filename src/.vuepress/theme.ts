@@ -16,7 +16,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  favicon: "/painlife/favicon.ico",
+  favicon: "favicon.ico",
 
   repo: "https://github.com/18259008878/painlife.git",
 
