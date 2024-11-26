@@ -9,6 +9,7 @@ const BlogBeautify = defineAsyncComponent(() => import('./components/BlogBeautif
 const TopBarBeautify = defineAsyncComponent(() => import('./components/TopBarBeautify.vue'));
 const HeroBG = defineAsyncComponent(() => import('./components/HeroBG.vue'));
 const HeroHitokoto = defineAsyncComponent(() => import('./components/HeroHitokoto.vue'));
+const BlogBg = defineAsyncComponent(() => import('./components/BlogBg.vue'));
 
 export default defineClientConfig({
     enhance({ app, router, siteData }) {
@@ -23,5 +24,6 @@ export default defineClientConfig({
         TopBarBeautify,
         HeroBG,
         HeroHitokoto,
+        BlogBg,
     ],
 });
