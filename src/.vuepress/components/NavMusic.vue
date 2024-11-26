@@ -4,6 +4,8 @@ import 'aplayer/dist/APlayer.min.css';
 import MyIcon from './MyIcon.vue';
 import { useRouter } from 'vue-router';
 import { ref, onMounted, nextTick } from 'vue';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const musicData = [
     {
@@ -113,15 +115,6 @@ function AddBtnSpin() {
     }
 }
 
-// function StopMusic() {
-//   const Win: any = window;
-//   let toPath = window.location.pathname;
-
-//   if (toPath.includes('/music/') && Win.GlobalAPlayer) {
-//     Win.GlobalAPlayer.pause();
-//   }
-// }
-
 const LoadMusicList = (callback) => {
     GlobalMusicList = musicData;
     callback && callback();
@@ -158,6 +151,7 @@ onMounted(() => {
             <div class="MyMusic_Play" :class="{ hide: !IsShow }">
                 <div class="close" @click="CloseStatus">
                     <MyIcon name="guanbi" />
+                    <FontAwesomeIcon :icon="faXmark" />
                 </div>
                 <div id="GlobalAPlayer"></div>
             </div>

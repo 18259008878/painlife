@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <span class="iconfont icon" :class="`icon-${props.name}`" :spin="props.spin"></span>
+    <span class="fontawesome icon" :class="`${props.name}`" :spin="props.spin"></span>
 </template>
 
 <style lang="scss">

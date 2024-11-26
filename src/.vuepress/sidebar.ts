@@ -38,7 +38,7 @@ export default sidebar({
     back_developer,
     {
       text: 'spring',
-      icon: 'srping',
+      icon: 'Spring',
       link: '/developer/spring/',
       children: 'structure',
     },
@@ -48,7 +48,7 @@ export default sidebar({
     back_developer,
     {
       text: 'vue3',
-      icon: 'vue',
+      icon: 'Vue',
       link: '/developer/vue/',
       children: 'structure',
     },

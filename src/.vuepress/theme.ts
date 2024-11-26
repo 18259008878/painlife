@@ -11,7 +11,7 @@ export default hopeTheme({
     url: "https://gitee.com/Q_of_Git",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_3855310_719xr3yczbn.css",
+  iconAssets: "https://cdn.bootcdn.net/ajax/libs/font-awesome/6.6.0/css/all.css",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 

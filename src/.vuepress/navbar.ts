@@ -4,15 +4,9 @@ export default navbar([
   "/",
   {
     text: "杂谈",
-    icon: "home",
+    icon: "note",
     prefix: "/posts/",
-    children: [
-      {
-        text: "测试博客",
-        icon: "pen-to-square",
-        link: "test"
-      }
-    ]
+    link: '/posts/'
   },
   {
     text: '关于',

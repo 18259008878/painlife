@@ -150,8 +150,8 @@ hr {
         line-height: 1.6rem;
         top: -0.4rem;
         left: 1%;
-        font-family: 'iconfont';
-        content: '\e66c';
+        font-family: 'FontAwesome';
+        content: '\f5e4';
         z-index: 2;
         font-size: 1.6rem;
         transition: 1s;
