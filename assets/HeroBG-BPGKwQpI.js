@@ -1,0 +1,1 @@
+import{_ as n}from"./plugin-vue_export-helper-DlAUqK2U.js";import{r as t,o as r,L as s,M as l,a}from"./app-ht4jMIkW.js";const c={};function _(f,e){const o=t("ClientOnly");return r(),s(o,null,{default:l(()=>e[0]||(e[0]=[a("div",{class:"none"},null,-1)])),_:1})}const p=n(c,[["render",_],["__file","HeroBG.vue"]]);export{p as default};
