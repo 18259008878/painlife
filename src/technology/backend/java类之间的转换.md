@@ -6,7 +6,7 @@ category:
   - mapStruct
 ---
 
-# java类之间的转换-mapStruct的使用
+# Java类之间的转换-mapStruct的使用
 
 [前面](./java的多个o.md)说到，在开发中我们会用到很多类。那么这些类之间应该如何做转换？
 
