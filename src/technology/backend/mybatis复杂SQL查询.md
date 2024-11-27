@@ -2,9 +2,9 @@
 icon: fa-solid fa-database
 date: 2024-11-26
 category:
-  - 数据库
-  - mybatis
-  - 复杂SQL
+  - MyBatis
+tag:
+  - 复杂SQL查询
 ---
 
 # MyBatis复杂SQL查询

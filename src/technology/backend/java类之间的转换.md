@@ -3,6 +3,7 @@ icon: fa-brands fa-java
 date: 2024-11-27
 category:
   - java
+tag:
   - mapStruct
 ---
 

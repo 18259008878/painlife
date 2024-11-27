@@ -2,11 +2,12 @@
 icon: fa-solid fa-database
 date: 2024-11-26
 category:
-  - 数据库
-  - mybatis
+  - MyBatis
+tag:
+  - MyBatis的字段匹配问题
 ---
 
-# Mybatis字段类型不匹配解决
+# MyBatis字段类型不匹配解决
 
 ## 前言
 

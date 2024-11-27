@@ -3,6 +3,8 @@ icon: fa-brands fa-java
 date: 2024-11-26
 category:
   - java
+tag:
+  - java的各种o
 ---
 
 # Java的多个o
