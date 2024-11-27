@@ -9,6 +9,12 @@ tag:
 
 # axios的拦截器和请求器
 
+## 安装axios
+
+```bash
+npm install axios
+```
+
 ## 首先配置基础路径
 
 首先在vite.config.js中配置基础路径
