@@ -21,7 +21,7 @@ export default navbar([
   },
   {
     text: "杂谈",
-    icon: "fa-solid fa-bars",
+    icon: "fa-solid fa-chart-bar",
     prefix: "/posts/",
     link: '/posts/'
   },
