@@ -2,6 +2,7 @@
 icon: fa-brands fa-vuejs
 pageInfo: ['Author', 'PageView']
 index: false
+article: false
 tag:
     - 目录
 permalink: /technology/frontend/

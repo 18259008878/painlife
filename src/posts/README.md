@@ -3,6 +3,7 @@ icon: fa-solid fa-chart-bar
 
 pageInfo: ['Author', 'PageView']
 index: false
+article: false
 tag:
     - 目录
 permalink: /posts/

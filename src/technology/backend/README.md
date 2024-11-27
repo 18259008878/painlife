@@ -2,6 +2,7 @@
 icon: fa-solid fa-terminal
 pageInfo: ['Author', 'PageView']
 index: false
+article: false
 tag:
     - 目录
 permalink: /technology/backend/

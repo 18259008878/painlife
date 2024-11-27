@@ -2,6 +2,7 @@
 icon: fa-solid fa-circle-info
 pageInfo: ['Author', 'PageView']
 index: false
+article: false
 tag:
     - 目录
 permalink: /about/

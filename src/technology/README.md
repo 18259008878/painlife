@@ -2,6 +2,7 @@
 icon: fa-solid fa-code
 pageInfo: ['Author', 'PageView']
 index: false
+article: false
 tag:
     - 目录
 permalink: /technology/
