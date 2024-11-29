@@ -1,6 +1,5 @@
 // Origin code from https://github.com/mo7cc/blog-source.git
 (function () {
-  console.log('加载 canvas-nest.js');
   // JavaScript Document
   var requestAnimationFrame =
     window.requestAnimationFrame ||
