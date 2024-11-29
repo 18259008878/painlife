@@ -1,6 +1,5 @@
 // Origin code from https://github.com/mo7cc/blog-source.git
 (function () {
-  console.log('加载 grain-parallax.js');
   !(function (a, b) {
     function c(a) {
       a = a || {};

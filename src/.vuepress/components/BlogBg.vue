@@ -51,7 +51,6 @@ const GrainParallax = () => {
 
     // 插入 js
     if (!document.getElementById('grain_parallax_js')) {
-        console.log('执行 grain_parallax_js');
         var jsElm = document.createElement('script');
         jsElm.id = 'grain_parallax_js';
         jsElm.type = 'text/javascript';
@@ -84,7 +83,6 @@ var ObserverColorModel = () => {
 
 onMounted(() => {
     nextTick(() => {
-        console.log('执行背景美化');
 
         BlogBg();
         LoadColorModelCanvas();
