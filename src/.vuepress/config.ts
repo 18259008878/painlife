@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
+import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
 import theme from "./theme.js";
 import { getDirname, path } from 'vuepress/utils';
 
@@ -47,6 +48,10 @@ export default defineUserConfig({
           }
         }
       ]
+    }),
+    slimsearchPlugin({
+      indexContent: true,
+      autoSuggestions: true
     })
   ],
   theme,
