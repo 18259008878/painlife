@@ -132,10 +132,10 @@ onMounted(() => {
 }
 
 // 简化搜索按钮
-.search-pro-button {
+.slimsearch-button {
 
-    .search-pro-placeholder,
-    .search-pro-key-hints {
+    .slimsearch-placeholder,
+    .slimsearch-key-hints {
         display: none;
     }
 
