@@ -46,7 +46,16 @@ export default defineUserConfig({
           stageStyle: {
             width: 350
           }
-        }
+        },
+        {
+          path: 'https://model.oml2d.com/HK416-1-normal/model.json',
+          scale: 0.12,
+          mobileScale: 0.08,
+          position: [-10, 30],
+          stageStyle: {
+            width: 460
+          }
+        },
       ]
     }),
     slimsearchPlugin({
