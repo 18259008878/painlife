@@ -37,25 +37,72 @@ export default defineUserConfig({
     // live2d看板娘
     oml2dPlugin({
       mobileDisplay: true,
+      tips: {
+        idleTips: {
+          wordTheDay: true
+        }
+      },
       models: [
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4-SOPMOD-II-1/normal/model.json',
+          scale: 0.08,
+          mobileScale: 0.04,
+          position: [0, 100],
+          stageStyle: {
+            height: 600,
+          }
+        },
         {
           path: 'https://model.oml2d.com/HK416-2-destroy/model.json',
           scale: 0.12,
           mobileScale: 0.08,
-          position: [-10, 50],
-          stageStyle: {
-            width: 350
-          }
+          position: [0, 50]
         },
         {
           path: 'https://model.oml2d.com/HK416-1-normal/model.json',
-          scale: 0.12,
-          mobileScale: 0.08,
-          position: [-10, 30],
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [0, 100],
           stageStyle: {
-            width: 460
+            height: 600,
           }
         },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/WA2000-1/destroy/model.json',
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [0, 50],
+          stageStyle: {
+            height: 600,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4-SOPMOD-II-2/normal/model.json',
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [0, 100],
+          stageStyle: {
+            height: 680,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4-SOPMOD-II-1/destroy/model.json',
+          scale: 0.08,
+          mobileScale: 0.04,
+          position: [0, 100],
+          stageStyle: {
+            height: 620,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4-SOPMOD-II-2/destroy/model.json',
+          scale: 0.12,
+          mobileScale: 0.08,
+          position: [0, 50],
+          stageStyle: {
+            height: 650,
+          },
+        }
       ]
     }),
     slimsearchPlugin({
