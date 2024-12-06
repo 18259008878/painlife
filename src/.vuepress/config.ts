@@ -102,6 +102,60 @@ export default defineUserConfig({
           stageStyle: {
             height: 650,
           },
+        },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4A1-2/normal/model.json',
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [0, 100],
+          stageStyle: {
+            height: 660,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/iCharlesZ/vscode-live2d-models/master/model-library/girls-frontline/M4A1-2/destroy/model.json',
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [0, 100],
+          stageStyle: {
+            height: 600,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/zenghongtu/live2d-model-assets/master/assets/Girls\'%20Frontline/ak12_3302/ak12_3302.model.json',
+          scale: 0.12,
+          mobileScale: 0.08,
+          position: [0, 100],
+          stageStyle: {
+            height: 640,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/zenghongtu/live2d-model-assets/master/assets/Girls\'%20Frontline/dsr50_2101/dsr50_2101.model.json',
+          scale: 0.08,
+          mobileScale: 0.04,
+          position: [0, 100],
+          stageStyle: {
+            height: 640,
+          }
+        },
+        {
+          path: 'https://raw.githubusercontent.com/zenghongtu/live2d-model-assets/master/assets/moc3/dafeng_2/dafeng_2.model3.json',
+          scale: 0.1,
+          mobileScale: 0.06,
+          position: [-60, 100],
+          stageStyle: {
+            height: 740,
+          }, showHitAreaFrames: true
+        },
+        {
+          path: 'https://raw.githubusercontent.com/zenghongtu/live2d-model-assets/master/assets/moc3/dafeng_4/dafeng_4.model3.json',
+          scale: 0.08,
+          mobileScale: 0.04,
+          position: [0, 100],
+          stageStyle: {
+            height: 700,
+          }
         }
       ]
     }),
