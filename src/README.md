@@ -4,7 +4,8 @@ layout: BlogHome
 icon: home
 title: 首页
 heroImage: /logo.svg
-bgImage: /img/alone_tea.jpg
+bgImage: /img/124491046_p0.png
+bgImageDark: /img/124464388_p0.png
 heroText: “极乐”人生
 heroFullScreen: true
 tagline: 人生苦短，及时“行乐”
